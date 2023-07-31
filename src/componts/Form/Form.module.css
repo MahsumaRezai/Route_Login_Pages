@@ -1,0 +1,37 @@
+.form {
+    background: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: max-content;
+    margin: auto;
+    font:inherit;
+    padding: 20px
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+    
+}
+.input {
+    width: 280px;
+    font:inherit;
+    height: 35px;
+    border: 1px solid #DDD
+}
+label{
+    color: #24292e;
+    font-size: 12px;
+    font-weight: 600;
+}
+.text {
+    font-size: 12px;
+    font-family: sans-serif;
+    color: red
+}

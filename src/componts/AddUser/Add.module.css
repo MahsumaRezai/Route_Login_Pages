@@ -1,0 +1,24 @@
+.content{
+    border: 1px solid #DDD;
+    text-align: center;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 17px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 14px;
+}
+.text {
+    display: flex;
+    flex-direction: row;
+    gap: 5px
+}
+.text a{
+    color: blue
+}

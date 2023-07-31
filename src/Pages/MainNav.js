@@ -7,7 +7,7 @@ const MainNav = (props) => {
         <Fragment>
             <header className={classes.head}>
                 <ul >
-                    <li><Link to='/' className={classes.link}>Hello</Link></li>
+                    <li><Link to='/' className={classes.link}>Github</Link></li>
 
                     <li><Link to='/all' className={classes.link}>AllMeetUps</Link></li>
 
