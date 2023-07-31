@@ -5,6 +5,8 @@
     align-items: center;
     gap: 20px;
     padding: 30px;
+    background-color: rgba(36, 36, 165, 0.959);
+    height: 300px;
 }
 
 .input {

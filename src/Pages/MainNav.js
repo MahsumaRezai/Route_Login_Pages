@@ -11,7 +11,7 @@ const MainNav = (props) => {
 
                     <li><Link to='/all' className={classes.link}>NetFlix</Link></li>
 
-                    <li><Link to='/new' className={classes.link}>NewMeetUps</Link></li>
+                    <li><Link to='/new' className={classes.link}>Facebook</Link></li>
                 </ul>
             </header>
         </Fragment>

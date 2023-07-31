@@ -1,7 +1,9 @@
 .head {
-    background-color: black;;
-    color: white;
+    background-color: #F9F9F9;
+    color: black;
     height: 80px;
+    border-bottom: 1px solid gainsboro;
+    box-shadow: 5px 5px 5px 5px gainsboro
 }
 .head ul {
     display: flex;
@@ -18,7 +20,7 @@
     list-style: none;
 }
 .link {
-    color: white;
+    color: black;
     text-decoration: none;
     list-style: none;
     font-size: 17px

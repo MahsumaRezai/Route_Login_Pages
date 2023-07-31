@@ -1,10 +1,11 @@
 import { Fragment } from "react";
+import Adduser from '../componts/componentes/Adduser.js/Adduser'
 
 const Newmeetup = (props) => {
     return (
         <Fragment>
             <div>
-                <h1>  this page is for New meetups page</h1>
+                <Adduser />
             </div>
         </Fragment>
     )
