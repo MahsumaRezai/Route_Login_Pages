@@ -1,0 +1,33 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.input {
+    display: block;
+    width: 20rem;
+    margin: auto;
+    padding: 0.25rem;
+    border: 1px solid #ccc;
+    background: none;
+    border: unset;
+    border-bottom: 1px solid whitesmoke;
+    color: whitesmoke;
+
+}
+.input:focus{
+    border:none;
+}
+
+.label {
+    color: whitesmoke;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    font-size: 15px;
+}
