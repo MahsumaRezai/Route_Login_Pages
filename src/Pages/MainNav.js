@@ -1,17 +1,19 @@
 import { Fragment } from "react";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import classes from './Nav.module.css';
 
 const MainNav = (props) => {
     return (
         <Fragment>
-            <ul>
-                <li><Link to='/'>Hello</Link></li>
+            <header className={classes.head}>
+                <ul >
+                    <li><Link to='/' className={classes.link}>Hello</Link></li>
 
-                <li><Link to='/all'>AllMeetUps</Link></li>
+                    <li><Link to='/all' className={classes.link}>AllMeetUps</Link></li>
 
-                <li><Link to='/new'>NewMeetUps</Link></li>
-            </ul>
-
+                    <li><Link to='/new' className={classes.link}>NewMeetUps</Link></li>
+                </ul>
+            </header>
         </Fragment>
     )
 }
