@@ -1,5 +1,5 @@
 .head {
-    background-color: darkgreen;
+    background-color: #2DB84C;;
     color: white;
     height: 80px;
 }
@@ -21,5 +21,6 @@
     color: white;
     text-decoration: none;
     list-style: none;
+    font-size: 17px
 
 }
