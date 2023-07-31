@@ -30,10 +30,10 @@
     justify-content: flex-start;
     align-items: flex-start;
     padding-left: 50px;
-    color: gray;
+    color: white;
     font-family: sans-serif;
     font-size: 14px;
-    gap: 50px
+    gap: 30px
 
 }
 .para {
@@ -95,7 +95,9 @@
       font-family: sans-serif;
       font-size: 30px;
       padding-top: 20px;
-      padding-bottom: 20px
+      padding-bottom: 20px;
+      color: white
+
   }
   .textVaild{
       border: none;
