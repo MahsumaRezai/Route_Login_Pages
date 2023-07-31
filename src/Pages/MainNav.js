@@ -9,7 +9,7 @@ const MainNav = (props) => {
                 <ul >
                     <li><Link to='/' className={classes.link}>Github</Link></li>
 
-                    <li><Link to='/all' className={classes.link}>AllMeetUps</Link></li>
+                    <li><Link to='/all' className={classes.link}>Facebook</Link></li>
 
                     <li><Link to='/new' className={classes.link}>NewMeetUps</Link></li>
                 </ul>
